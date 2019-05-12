@@ -12,3 +12,4 @@ console.log(ferrari.__proto__) // prototype é como se fosse a classe pai, em ja
 console.log(ferrari.__proto__ === Object.prototype) // true
 console.log(volvo.__proto__ === Object.prototype) // true
 console.log(Object.prototype.__proto__) // null
+
