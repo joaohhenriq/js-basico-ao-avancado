@@ -11,3 +11,9 @@ console.log(alunos.map(a => a.bolsista).reduce((resultado, bolsista) => resultad
 
 // algum aluno é bolsista?
 console.log(alunos.map(a => a.bolsista).reduce((resultado, bolsista) => resultado || bolsista))
+
+///////////////////////// pegar soma das notas
+const getNota = a => a.nota
+const soma = (total, atual) => total + atual
+const total2 = alunos.map(getNota).reduce(soma)
+console.log(total2)
