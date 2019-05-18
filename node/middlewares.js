@@ -12,8 +12,8 @@ const passo3 = context => context.valor3 = 'mid3'
 
 const exec = (context, ...middlewares) => {
     const execPasso = indice => {
-        middlewares 
-        && indice < middlewares.length 
+        middlewares //verifica middleware não é nulo
+        && indice < middlewares.length //vericica se o indice está dentro do tamanho do middleware
         && middlewares[indice](context, () => execPasso(indice + 1)) //onde o segundo param é o next)
     }
 
