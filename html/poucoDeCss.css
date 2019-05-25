@@ -1,0 +1,19 @@
+h1 {
+    font-size: 20px;
+}
+
+.fundoVermelho { 
+    background-color: red
+} /*para classe css*/
+
+.negrito {
+    font-weight: bold;
+}
+
+#textoPrincipal{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #444444;
+    color: #fff;
+    padding: 10px;
+}/*para id's*/
